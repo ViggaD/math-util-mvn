@@ -37,3 +37,20 @@ public class MathUtilityTest {
         assertEquals(120, MathUtilMvn.getFactorial(5));
     }
 }
+
+
+//3 TESST CASE TREEN KO ĐẸP, BỐC MÙI, BAD SMELLS VÌ CHỈ KHÁC NHAU PHẦN DATA
+//TRONG NGHỀ KIỂM THỬ CÓ 1 KĨ THUẬT ĐÓ LÀ TÁCH HẲN DATA KIỂM THỬ RA
+//1 CHỖ, CHO DỄ NHÌN, DỄ QUẢN LÍ ĐC DATA THIẾU ĐỦ HAY KO 
+
+//SAU ĐÓ TA ĐƯA BỘ DATA NÀY VÀO TRONG CÂU LỆNH SO SÁNH ASSERT()
+//QUA CÁC THAM SỐ (PARAMETER)
+//TỨC LÀ ASERTEQUALS (EXPECTED, ACTUAL) là 2 THAM SỐ
+//ỨNG VƠI SBOOJ DÂT ĐC TÁCH RA
+
+
+
+//Code nhìn đẹp nhìn gọn đc thiếu đủ test data, test case
+//kĩ thuật tách data kiểm thử ra khỏi câu lệnh so sánh -> được gọi 
+// là DDT - DATA-DRIVEN TESTING - KIỂM THỬ THEO HƯỚNG TÁCH DATA RIÊNG LẺ
+
